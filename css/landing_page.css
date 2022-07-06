@@ -1,0 +1,128 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient( circle, transparent 0%, black 200%), url(../images/space-compressed.jpg);;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: transparent !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.nav-item a{
+    text-align: right;
+    color: white !important;
+}
+
+#navbar-collapse-btn {
+    background: transparent;
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+h1{
+    font-size: 1.1em;
+}
+
+.jumbotron {
+	background: transparent;
+    margin-bottom: 0;	
+}
+
+#profile-pic{
+    display: block;
+    width:80%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+#title h1{
+    text-align: left;
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title h2{
+    text-align: left;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote{
+    margin: 5vh 0 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px black;
+}
+
+/* ---------------------------------------------------
+    CONTACT
+----------------------------------------------------- */
+#contact {
+    width: 100%;
+    padding: 0; 
+    text-align: center;
+}
+
+#contact #contact-group{
+    display: inline-block;
+    padding: 0;
+}
+
+#contact .contact-btn {
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    margin:5px;
+    padding:5px;
+    display: inline-block;
+}
+
+#contact .contact-btn a, #contact .contact-btn span{
+    color: white;
+}
+
+/* ---------------------------------------------------
+    MEDIA QUERIES
+----------------------------------------------------- */
+@media (max-width: 719px){
+    #title h1{
+        text-align: center;    
+    }
+
+    #title h2{
+        text-align: center;
+    }
+}
+
+/*@media (min-width: 720px){
+    #title h1{
+        text-align: left;    
+    }
+
+    #title h2{
+        text-align: left;
+    }
+}*/
